@@ -97,3 +97,22 @@ a{
 .navigate ul a{
     margin-left: 40px;
 }
+
+ /* Media Query for Mobile Devices */
+ @media (max-width: 480px){
+    .nav-1{
+        display: none;
+    }
+
+    .navigate ul{
+        display: flex !important;
+        flex-direction: row !important;
+        flex-wrap: wrap;
+    }
+
+    .navigate ul a{
+        margin-left: 0px;
+        margin-right: 10px;
+        font-size: 11px;
+    }
+ }

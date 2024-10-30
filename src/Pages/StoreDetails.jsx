@@ -4,10 +4,17 @@ import 'bootstrap/dist/js/bootstrap.bundle'
 import '../Pages/StoreDetails.css'
 import storeImg from '../Assets/store-img.png'
 import rating from '../Assets/rating.png'
+import Propic from'../Assets/profile-pic.png'
 
 const StoreDetails = () => {
   return (
-    <>
+    <> 
+            <div className='Mob-nav'>
+            <div><i class="bi bi-list"></i></div>
+            <div>Mobile Site Product</div>
+            <div><img src= {Propic} alt="" /></div>
+          </div>
+
             <div class="search-container">
               <input type="text" class="search-input" placeholder="Search" />
               <div class="search-icons">
@@ -33,6 +40,7 @@ const StoreDetails = () => {
                   </ul>
                 </div>
            </div>
+
         <div className='card-section'>
             <div className='card'>
                 <img src={storeImg} alt="" />
@@ -40,7 +48,7 @@ const StoreDetails = () => {
                 <p className='p2' style={{fontSize: '18px', fontWeight: '600'}}>AC Spare Part Wholesalers </p>
                 <p className='p3' style={{fontSize: '18px', fontWeight: '600'}}>Gandhipuram Coimbatore</p>
                 <img className='rating' src={rating} alt="img" />
-                <p className='p4'><i class="bi bi-telephone-fill" style={{color: 'blue', fontSize: '20px'}}> View Mobile Number</i></p>
+                <p className='p4'><i class="bi bi-telephone-fill"> View Mobile Number</i></p>
                 <button className='btn'>Contact Supplier</button>
             </div>
             <div className='card'>
@@ -49,7 +57,7 @@ const StoreDetails = () => {
                 <p className='p2' style={{fontSize: '18px', fontWeight: '600'}}>AC Spare Part Wholesalers </p>
                 <p className='p3' style={{fontSize: '18px', fontWeight: '600'}}>Gandhipuram Coimbatore</p>
                 <img className='rating' src={rating} alt="img" style={{width: '122px', height: '40px'}} />
-                <p className='p4'><i class="bi bi-telephone-fill" style={{color: 'blue', fontSize: '20px'}}> View Mobile Number</i></p>
+                <p className='p4'><i class="bi bi-telephone-fill"> View Mobile Number</i></p>
                 <button className='btn'>Contact Supplier</button>
             </div>
             <div className='card'>
@@ -58,7 +66,7 @@ const StoreDetails = () => {
                 <p className='p2' style={{fontSize: '18px', fontWeight: '600'}}>AC Spare Part Wholesalers </p>
                 <p className='p3' style={{fontSize: '18px', fontWeight: '600'}}>Gandhipuram Coimbatore</p>
                 <img className='rating' src={rating} alt="img" style={{width: '122px', height: '40px'}} />
-                <p className='p4'><i class="bi bi-telephone-fill" style={{color: 'blue', fontSize: '20px'}}> View Mobile Number</i></p>
+                <p className='p4'><i class="bi bi-telephone-fill"> View Mobile Number</i></p>
                 <button className='btn'>Contact Supplier</button>
             </div>
             <div className='card'>
@@ -67,166 +75,155 @@ const StoreDetails = () => {
                 <p className='p2' style={{fontSize: '18px', fontWeight: '600'}}>AC Spare Part Wholesalers </p>
                 <p className='p3' style={{fontSize: '18px', fontWeight: '600'}}>Gandhipuram Coimbatore</p>
                 <img className='rating' src={rating} alt="img" style={{width: '122px', height: '40px'}} />
-                <p className='p4'><i class="bi bi-telephone-fill" style={{color: 'blue', fontSize: '20px'}}> View Mobile Number</i></p>
+                <p className='p4'><i class="bi bi-telephone-fill"> View Mobile Number</i></p>
                 <button className='btn'>Contact Supplier</button>
-            </div>    
+            </div>   
+            <div className='card'>
+                <img src={storeImg} alt="" />
+                <p className='p1' style={{fontSize: '22px', fontWeight: '700'}}>Smart Accessories</p>
+                <p className='p2' style={{fontSize: '18px', fontWeight: '600'}}>AC Spare Part Wholesalers </p>
+                <p className='p3' style={{fontSize: '18px', fontWeight: '600'}}>Gandhipuram Coimbatore</p>
+                <img className='rating' src={rating} alt="img" style={{width: '122px', height: '40px'}} />
+                <p className='p4'><i class="bi bi-telephone-fill"> View Mobile Number</i></p>
+                <button className='btn'>Contact Supplier</button>
+            </div>
+            <div className='card'>
+                <img src={storeImg} alt="" />
+                <p className='p1' style={{fontSize: '22px', fontWeight: '700'}}>Smart Accessories</p>
+                <p className='p2' style={{fontSize: '18px', fontWeight: '600'}}>AC Spare Part Wholesalers </p>
+                <p className='p3' style={{fontSize: '18px', fontWeight: '600'}}>Gandhipuram Coimbatore</p>
+                <img className='rating' src={rating} alt="img" style={{width: '122px', height: '40px'}} />
+                <p className='p4'><i class="bi bi-telephone-fill"> View Mobile Number</i></p>
+                <button className='btn'>Contact Supplier</button>
+            </div>
+            <div className='card'>
+                <img src={storeImg} alt="" />
+                <p className='p1' style={{fontSize: '22px', fontWeight: '700'}}>Smart Accessories</p>
+                <p className='p2' style={{fontSize: '18px', fontWeight: '600'}}>AC Spare Part Wholesalers </p>
+                <p className='p3' style={{fontSize: '18px', fontWeight: '600'}}>Gandhipuram Coimbatore</p>
+                <img className='rating' src={rating} alt="img" style={{width: '122px', height: '40px'}} />
+                <p className='p4'><i class="bi bi-telephone-fill"> View Mobile Number</i></p>
+                <button className='btn'>Contact Supplier</button>
+            </div>
+            <div className='card'>
+                <img src={storeImg} alt="" />
+                <p className='p1' style={{fontSize: '22px', fontWeight: '700'}}>Smart Accessories</p>
+                <p className='p2' style={{fontSize: '18px', fontWeight: '600'}}>AC Spare Part Wholesalers </p>
+                <p className='p3' style={{fontSize: '18px', fontWeight: '600'}}>Gandhipuram Coimbatore</p>
+                <img className='rating' src={rating} alt="img" style={{width: '122px', height: '40px'}} />
+                <p className='p4'><i class="bi bi-telephone-fill"> View Mobile Number</i></p>
+                <button className='btn'>Contact Supplier</button>
+            </div>  
+            <div className='card'>
+                <img src={storeImg} alt="" />
+                <p className='p1' style={{fontSize: '22px', fontWeight: '700'}}>Smart Accessories</p>
+                <p className='p2' style={{fontSize: '18px', fontWeight: '600'}}>AC Spare Part Wholesalers </p>
+                <p className='p3' style={{fontSize: '18px', fontWeight: '600'}}>Gandhipuram Coimbatore</p>
+                <img className='rating' src={rating} alt="img" style={{width: '122px', height: '40px'}} />
+                <p className='p4'><i class="bi bi-telephone-fill"> View Mobile Number</i></p>
+                <button className='btn'>Contact Supplier</button>
+            </div>
+            <div className='card'>
+                <img src={storeImg} alt="" />
+                <p className='p1' style={{fontSize: '22px', fontWeight: '700'}}>Smart Accessories</p>
+                <p className='p2' style={{fontSize: '18px', fontWeight: '600'}}>AC Spare Part Wholesalers </p>
+                <p className='p3' style={{fontSize: '18px', fontWeight: '600'}}>Gandhipuram Coimbatore</p>
+                <img className='rating' src={rating} alt="img" style={{width: '122px', height: '40px'}} />
+                <p className='p4'><i class="bi bi-telephone-fill"> View Mobile Number</i></p>
+                <button className='btn'>Contact Supplier</button>
+            </div>
+            <div className='card'>
+                <img src={storeImg} alt="" />
+                <p className='p1' style={{fontSize: '22px', fontWeight: '700'}}>Smart Accessories</p>
+                <p className='p2' style={{fontSize: '18px', fontWeight: '600'}}>AC Spare Part Wholesalers </p>
+                <p className='p3' style={{fontSize: '18px', fontWeight: '600'}}>Gandhipuram Coimbatore</p>
+                <img className='rating' src={rating} alt="img" style={{width: '122px', height: '40px'}} />
+                <p className='p4'><i class="bi bi-telephone-fill"> View Mobile Number</i></p>
+                <button className='btn'>Contact Supplier</button>
+            </div>
+            <div className='card'>
+                <img src={storeImg} alt="" />
+                <p className='p1' style={{fontSize: '22px', fontWeight: '700'}}>Smart Accessories</p>
+                <p className='p2' style={{fontSize: '18px', fontWeight: '600'}}>AC Spare Part Wholesalers </p>
+                <p className='p3' style={{fontSize: '18px', fontWeight: '600'}}>Gandhipuram Coimbatore</p>
+                <img className='rating' src={rating} alt="img" style={{width: '122px', height: '40px'}} />
+                <p className='p4'><i class="bi bi-telephone-fill"> View Mobile Number</i></p>
+                <button className='btn'>Contact Supplier</button>
+            </div>  
+            <div className='card'>
+                <img src={storeImg} alt="" />
+                <p className='p1' style={{fontSize: '22px', fontWeight: '700'}}>Smart Accessories</p>
+                <p className='p2' style={{fontSize: '18px', fontWeight: '600'}}>AC Spare Part Wholesalers </p>
+                <p className='p3' style={{fontSize: '18px', fontWeight: '600'}}>Gandhipuram Coimbatore</p>
+                <img className='rating' src={rating} alt="img" style={{width: '122px', height: '40px'}} />
+                <p className='p4'><i class="bi bi-telephone-fill"> View Mobile Number</i></p>
+                <button className='btn'>Contact Supplier</button>
+            </div>
+            <div className='card'>
+                <img src={storeImg} alt="" />
+                <p className='p1' style={{fontSize: '22px', fontWeight: '700'}}>Smart Accessories</p>
+                <p className='p2' style={{fontSize: '18px', fontWeight: '600'}}>AC Spare Part Wholesalers </p>
+                <p className='p3' style={{fontSize: '18px', fontWeight: '600'}}>Gandhipuram Coimbatore</p>
+                <img className='rating' src={rating} alt="img" style={{width: '122px', height: '40px'}} />
+                <p className='p4'><i class="bi bi-telephone-fill"> View Mobile Number</i></p>
+                <button className='btn'>Contact Supplier</button>
+            </div>
+            <div className='card'>
+                <img src={storeImg} alt="" />
+                <p className='p1' style={{fontSize: '22px', fontWeight: '700'}}>Smart Accessories</p>
+                <p className='p2' style={{fontSize: '18px', fontWeight: '600'}}>AC Spare Part Wholesalers </p>
+                <p className='p3' style={{fontSize: '18px', fontWeight: '600'}}>Gandhipuram Coimbatore</p>
+                <img className='rating' src={rating} alt="img" style={{width: '122px', height: '40px'}} />
+                <p className='p4'><i class="bi bi-telephone-fill"> View Mobile Number</i></p>
+                <button className='btn'>Contact Supplier</button>
+            </div>
+            <div className='card'>
+                <img src={storeImg} alt="" />
+                <p className='p1' style={{fontSize: '22px', fontWeight: '700'}}>Smart Accessories</p>
+                <p className='p2' style={{fontSize: '18px', fontWeight: '600'}}>AC Spare Part Wholesalers </p>
+                <p className='p3' style={{fontSize: '18px', fontWeight: '600'}}>Gandhipuram Coimbatore</p>
+                <img className='rating' src={rating} alt="img" style={{width: '122px', height: '40px'}} />
+                <p className='p4'><i class="bi bi-telephone-fill"> View Mobile Number</i></p>
+                <button className='btn'>Contact Supplier</button>
+            </div>   
+            <div className='card'>
+                <img src={storeImg} alt="" />
+                <p className='p1' style={{fontSize: '22px', fontWeight: '700'}}>Smart Accessories</p>
+                <p className='p2' style={{fontSize: '18px', fontWeight: '600'}}>AC Spare Part Wholesalers </p>
+                <p className='p3' style={{fontSize: '18px', fontWeight: '600'}}>Gandhipuram Coimbatore</p>
+                <img className='rating' src={rating} alt="img" style={{width: '122px', height: '40px'}} />
+                <p className='p4'><i class="bi bi-telephone-fill"> View Mobile Number</i></p>
+                <button className='btn'>Contact Supplier</button>
+            </div>
+            <div className='card'>
+                <img src={storeImg} alt="" />
+                <p className='p1' style={{fontSize: '22px', fontWeight: '700'}}>Smart Accessories</p>
+                <p className='p2' style={{fontSize: '18px', fontWeight: '600'}}>AC Spare Part Wholesalers </p>
+                <p className='p3' style={{fontSize: '18px', fontWeight: '600'}}>Gandhipuram Coimbatore</p>
+                <img className='rating' src={rating} alt="img" style={{width: '122px', height: '40px'}} />
+                <p className='p4'><i class="bi bi-telephone-fill"> View Mobile Number</i></p>
+                <button className='btn'>Contact Supplier</button>
+            </div>
+            <div className='card'>
+                <img src={storeImg} alt="" />
+                <p className='p1' style={{fontSize: '22px', fontWeight: '700'}}>Smart Accessories</p>
+                <p className='p2' style={{fontSize: '18px', fontWeight: '600'}}>AC Spare Part Wholesalers </p>
+                <p className='p3' style={{fontSize: '18px', fontWeight: '600'}}>Gandhipuram Coimbatore</p>
+                <img className='rating' src={rating} alt="img" style={{width: '122px', height: '40px'}} />
+                <p className='p4'><i class="bi bi-telephone-fill"> View Mobile Number</i></p>
+                <button className='btn'>Contact Supplier</button>
+            </div>
+            <div className='card'>
+                <img src={storeImg} alt="" />
+                <p className='p1' style={{fontSize: '22px', fontWeight: '700'}}>Smart Accessories</p>
+                <p className='p2' style={{fontSize: '18px', fontWeight: '600'}}>AC Spare Part Wholesalers </p>
+                <p className='p3' style={{fontSize: '18px', fontWeight: '600'}}>Gandhipuram Coimbatore</p>
+                <img className='rating' src={rating} alt="img" style={{width: '122px', height: '40px'}} />
+                <p className='p4'><i class="bi bi-telephone-fill"> View Mobile Number</i></p>
+                <button className='btn'>Contact Supplier</button>
+            </div>       
        </div>
 
-     <div className='card-section'>
-            <div className='card'>
-                <img src={storeImg} alt="" />
-                <p className='p1' style={{fontSize: '22px', fontWeight: '700'}}>Smart Accessories</p>
-                <p className='p2' style={{fontSize: '18px', fontWeight: '600'}}>AC Spare Part Wholesalers </p>
-                <p className='p3' style={{fontSize: '18px', fontWeight: '600'}}>Gandhipuram Coimbatore</p>
-                <img className='rating' src={rating} alt="img" style={{width: '122px', height: '40px'}} />
-                <p className='p4'><i class="bi bi-telephone-fill" style={{color: 'blue', fontSize: '20px'}}> View Mobile Number</i></p>
-                <button className='btn'>Contact Supplier</button>
-            </div>
-            <div className='card'>
-                <img src={storeImg} alt="" />
-                <p className='p1' style={{fontSize: '22px', fontWeight: '700'}}>Smart Accessories</p>
-                <p className='p2' style={{fontSize: '18px', fontWeight: '600'}}>AC Spare Part Wholesalers </p>
-                <p className='p3' style={{fontSize: '18px', fontWeight: '600'}}>Gandhipuram Coimbatore</p>
-                <img className='rating' src={rating} alt="img" style={{width: '122px', height: '40px'}} />
-                <p className='p4'><i class="bi bi-telephone-fill" style={{color: 'blue', fontSize: '20px'}}> View Mobile Number</i></p>
-                <button className='btn'>Contact Supplier</button>
-            </div>
-            <div className='card'>
-                <img src={storeImg} alt="" />
-                <p className='p1' style={{fontSize: '22px', fontWeight: '700'}}>Smart Accessories</p>
-                <p className='p2' style={{fontSize: '18px', fontWeight: '600'}}>AC Spare Part Wholesalers </p>
-                <p className='p3' style={{fontSize: '18px', fontWeight: '600'}}>Gandhipuram Coimbatore</p>
-                <img className='rating' src={rating} alt="img" style={{width: '122px', height: '40px'}} />
-                <p className='p4'><i class="bi bi-telephone-fill" style={{color: 'blue', fontSize: '20px'}}> View Mobile Number</i></p>
-                <button className='btn'>Contact Supplier</button>
-            </div>
-            <div className='card'>
-                <img src={storeImg} alt="" />
-                <p className='p1' style={{fontSize: '22px', fontWeight: '700'}}>Smart Accessories</p>
-                <p className='p2' style={{fontSize: '18px', fontWeight: '600'}}>AC Spare Part Wholesalers </p>
-                <p className='p3' style={{fontSize: '18px', fontWeight: '600'}}>Gandhipuram Coimbatore</p>
-                <img className='rating' src={rating} alt="img" style={{width: '122px', height: '40px'}} />
-                <p className='p4'><i class="bi bi-telephone-fill" style={{color: 'blue', fontSize: '20px'}}> View Mobile Number</i></p>
-                <button className='btn'>Contact Supplier</button>
-            </div>    
-     </div>
-
-     <div className='card-section'>
-            <div className='card'>
-                <img src={storeImg} alt="" />
-                <p className='p1' style={{fontSize: '22px', fontWeight: '700'}}>Smart Accessories</p>
-                <p className='p2' style={{fontSize: '18px', fontWeight: '600'}}>AC Spare Part Wholesalers </p>
-                <p className='p3' style={{fontSize: '18px', fontWeight: '600'}}>Gandhipuram Coimbatore</p>
-                <img className='rating' src={rating} alt="img" style={{width: '122px', height: '40px'}} />
-                <p className='p4'><i class="bi bi-telephone-fill" style={{color: 'blue', fontSize: '20px'}}> View Mobile Number</i></p>
-                <button className='btn'>Contact Supplier</button>
-            </div>
-            <div className='card'>
-                <img src={storeImg} alt="" />
-                <p className='p1' style={{fontSize: '22px', fontWeight: '700'}}>Smart Accessories</p>
-                <p className='p2' style={{fontSize: '18px', fontWeight: '600'}}>AC Spare Part Wholesalers </p>
-                <p className='p3' style={{fontSize: '18px', fontWeight: '600'}}>Gandhipuram Coimbatore</p>
-                <img className='rating' src={rating} alt="img" style={{width: '122px', height: '40px'}} />
-                <p className='p4'><i class="bi bi-telephone-fill" style={{color: 'blue', fontSize: '20px'}}> View Mobile Number</i></p>
-                <button className='btn'>Contact Supplier</button>
-            </div>
-            <div className='card'>
-                <img src={storeImg} alt="" />
-                <p className='p1' style={{fontSize: '22px', fontWeight: '700'}}>Smart Accessories</p>
-                <p className='p2' style={{fontSize: '18px', fontWeight: '600'}}>AC Spare Part Wholesalers </p>
-                <p className='p3' style={{fontSize: '18px', fontWeight: '600'}}>Gandhipuram Coimbatore</p>
-                <img className='rating' src={rating} alt="img" style={{width: '122px', height: '40px'}} />
-                <p className='p4'><i class="bi bi-telephone-fill" style={{color: 'blue', fontSize: '20px'}}> View Mobile Number</i></p>
-                <button className='btn'>Contact Supplier</button>
-            </div>
-            <div className='card'>
-                <img src={storeImg} alt="" />
-                <p className='p1' style={{fontSize: '22px', fontWeight: '700'}}>Smart Accessories</p>
-                <p className='p2' style={{fontSize: '18px', fontWeight: '600'}}>AC Spare Part Wholesalers </p>
-                <p className='p3' style={{fontSize: '18px', fontWeight: '600'}}>Gandhipuram Coimbatore</p>
-                <img className='rating' src={rating} alt="img" style={{width: '122px', height: '40px'}} />
-                <p className='p4'><i class="bi bi-telephone-fill" style={{color: 'blue', fontSize: '20px'}}> View Mobile Number</i></p>
-                <button className='btn'>Contact Supplier</button>
-            </div>    
-     </div>
-
-     <div className='card-section'>
-            <div className='card'>
-                <img src={storeImg} alt="" />
-                <p className='p1' style={{fontSize: '22px', fontWeight: '700'}}>Smart Accessories</p>
-                <p className='p2' style={{fontSize: '18px', fontWeight: '600'}}>AC Spare Part Wholesalers </p>
-                <p className='p3' style={{fontSize: '18px', fontWeight: '600'}}>Gandhipuram Coimbatore</p>
-                <img className='rating' src={rating} alt="img" style={{width: '122px', height: '40px'}} />
-                <p className='p4'><i class="bi bi-telephone-fill" style={{color: 'blue', fontSize: '20px'}}> View Mobile Number</i></p>
-                <button className='btn'>Contact Supplier</button>
-            </div>
-            <div className='card'>
-                <img src={storeImg} alt="" />
-                <p className='p1' style={{fontSize: '22px', fontWeight: '700'}}>Smart Accessories</p>
-                <p className='p2' style={{fontSize: '18px', fontWeight: '600'}}>AC Spare Part Wholesalers </p>
-                <p className='p3' style={{fontSize: '18px', fontWeight: '600'}}>Gandhipuram Coimbatore</p>
-                <img className='rating' src={rating} alt="img" style={{width: '122px', height: '40px'}} />
-                <p className='p4'><i class="bi bi-telephone-fill" style={{color: 'blue', fontSize: '20px'}}> View Mobile Number</i></p>
-                <button className='btn'>Contact Supplier</button>
-            </div>
-            <div className='card'>
-                <img src={storeImg} alt="" />
-                <p className='p1' style={{fontSize: '22px', fontWeight: '700'}}>Smart Accessories</p>
-                <p className='p2' style={{fontSize: '18px', fontWeight: '600'}}>AC Spare Part Wholesalers </p>
-                <p className='p3' style={{fontSize: '18px', fontWeight: '600'}}>Gandhipuram Coimbatore</p>
-                <img className='rating' src={rating} alt="img" style={{width: '122px', height: '40px'}} />
-                <p className='p4'><i class="bi bi-telephone-fill" style={{color: 'blue', fontSize: '20px'}}> View Mobile Number</i></p>
-                <button className='btn'>Contact Supplier</button>
-            </div>
-            <div className='card'>
-                <img src={storeImg} alt="" />
-                <p className='p1' style={{fontSize: '22px', fontWeight: '700'}}>Smart Accessories</p>
-                <p className='p2' style={{fontSize: '18px', fontWeight: '600'}}>AC Spare Part Wholesalers </p>
-                <p className='p3' style={{fontSize: '18px', fontWeight: '600'}}>Gandhipuram Coimbatore</p>
-                <img className='rating' src={rating} alt="img" style={{width: '122px', height: '40px'}} />
-                <p className='p4'><i class="bi bi-telephone-fill" style={{color: 'blue', fontSize: '20px'}}> View Mobile Number</i></p>
-                <button className='btn'>Contact Supplier</button>
-            </div>    
-     </div>
-
-     <div className='card-section'>
-            <div className='card'>
-                <img src={storeImg} alt="" />
-                <p className='p1' style={{fontSize: '22px', fontWeight: '700'}}>Smart Accessories</p>
-                <p className='p2' style={{fontSize: '18px', fontWeight: '600'}}>AC Spare Part Wholesalers </p>
-                <p className='p3' style={{fontSize: '18px', fontWeight: '600'}}>Gandhipuram Coimbatore</p>
-                <img className='rating' src={rating} alt="img" style={{width: '122px', height: '40px'}} />
-                <p className='p4'><i class="bi bi-telephone-fill" style={{color: 'blue', fontSize: '20px'}}> View Mobile Number</i></p>
-                <button className='btn'>Contact Supplier</button>
-            </div>
-            <div className='card'>
-                <img src={storeImg} alt="" />
-                <p className='p1' style={{fontSize: '22px', fontWeight: '700'}}>Smart Accessories</p>
-                <p className='p2' style={{fontSize: '18px', fontWeight: '600'}}>AC Spare Part Wholesalers </p>
-                <p className='p3' style={{fontSize: '18px', fontWeight: '600'}}>Gandhipuram Coimbatore</p>
-                <img className='rating' src={rating} alt="img" style={{width: '122px', height: '40px'}} />
-                <p className='p4'><i class="bi bi-telephone-fill" style={{color: 'blue', fontSize: '20px'}}> View Mobile Number</i></p>
-                <button className='btn'>Contact Supplier</button>
-            </div>
-            <div className='card'>
-                <img src={storeImg} alt="" />
-                <p className='p1' style={{fontSize: '22px', fontWeight: '700'}}>Smart Accessories</p>
-                <p className='p2' style={{fontSize: '18px', fontWeight: '600'}}>AC Spare Part Wholesalers </p>
-                <p className='p3' style={{fontSize: '18px', fontWeight: '600'}}>Gandhipuram Coimbatore</p>
-                <img className='rating' src={rating} alt="img" style={{width: '122px', height: '40px'}} />
-                <p className='p4'><i class="bi bi-telephone-fill" style={{color: 'blue', fontSize: '20px'}}> View Mobile Number</i></p>
-                <button className='btn'>Contact Supplier</button>
-            </div>
-            <div className='card'>
-                <img src={storeImg} alt="" />
-                <p className='p1' style={{fontSize: '22px', fontWeight: '700'}}>Smart Accessories</p>
-                <p className='p2' style={{fontSize: '18px', fontWeight: '600'}}>AC Spare Part Wholesalers </p>
-                <p className='p3' style={{fontSize: '18px', fontWeight: '600'}}>Gandhipuram Coimbatore</p>
-                <img className='rating' src={rating} alt="img" style={{width: '122px', height: '40px'}} />
-                <p className='p4'><i class="bi bi-telephone-fill" style={{color: 'blue', fontSize: '20px'}}> View Mobile Number</i></p>
-                <button className='btn'>Contact Supplier</button>
-            </div>    
-     </div>
     </>
   )
 }

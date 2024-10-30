@@ -3,10 +3,17 @@ import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap/dist/js/bootstrap.bundle'
 import '../Pages/MainPage.css'
 import outdoorStand from '../Assets/ac-outdoor-stand.png'
+import Propic from'../Assets/profile-pic.png'
 
 const MainPage = () => {
   return (
-    <>
+    <>     
+             <div className='Mob-nav'>
+            <div><i class="bi bi-list"></i></div>
+            <div>Mobile Site Product</div>
+            <div><img src= {Propic} alt="" /></div>
+          </div>
+
            <div class="search-container">
               <input type="text" class="search-input" placeholder="Search" />
               <div class="search-icons">
@@ -32,6 +39,7 @@ const MainPage = () => {
                   </ul>
                 </div>
            </div>
+         
       <div className='card-section'>
         <div className='card'>
             <img src={outdoorStand} alt="" />
@@ -65,9 +73,102 @@ const MainPage = () => {
             <small className='brand'>Blue Star Brand</small>
             <button className='card'>Add to Card</button>
         </div>
-     </div>
-
-     <div className='card-section2'>
+        <div className='card'>
+            <img src={outdoorStand} alt="" />
+            <p>AC Outdoor Stand Wall Stand Split Ac</p>
+            <span></span>
+            <h4>Rs-3,000.00 </h4>
+            <small className='brand'>Blue Star Brand</small>
+            <button className='card'>Add to Card</button>
+        </div>
+        <div className='card'>
+            <img src={outdoorStand} alt="" />
+            <p>AC Outdoor Stand Wall Stand Split Ac</p>
+            <span></span>
+            <h4>Rs-3,000.00 </h4>
+            <small className='brand'>Blue Star Brand</small>
+            <button className='card'>Add to Card</button>
+        </div>
+        <div className='card'>
+            <img src={outdoorStand} alt="" />
+            <p>AC Outdoor Stand Wall Stand Split Ac</p>
+            <span></span>
+            <h4>Rs-3,000.00 </h4>
+            <small className='brand'>Blue Star Brand</small>
+            <button className='card'>Add to Card</button>
+        </div>
+        <div className='card'>
+            <img src={outdoorStand} alt="" />
+            <p>AC Outdoor Stand Wall Stand Split Ac</p>
+            <span></span>
+            <h4>Rs-3,000.00 </h4>
+            <small className='brand'>Blue Star Brand</small>
+            <button className='card'>Add to Card</button>
+        </div>
+        <div className='card'>
+            <img src={outdoorStand} alt="" />
+            <p>AC Outdoor Stand Wall Stand Split Ac</p>
+            <span></span>
+            <h4>Rs-3,000.00 </h4>
+            <small className='brand'>Blue Star Brand</small>
+            <button className='card'>Add to Card</button>
+        </div>
+        <div className='card'>
+            <img src={outdoorStand} alt="" />
+            <p>AC Outdoor Stand Wall Stand Split Ac</p>
+            <span></span>
+            <h4>Rs-3,000.00 </h4>
+            <small className='brand'>Blue Star Brand</small>
+            <button className='card'>Add to Card</button>
+        </div>
+        <div className='card'>
+            <img src={outdoorStand} alt="" />
+            <p>AC Outdoor Stand Wall Stand Split Ac</p>
+            <span></span>
+            <h4>Rs-3,000.00 </h4>
+            <small className='brand'>Blue Star Brand</small>
+            <button className='card'>Add to Card</button>
+        </div>
+        <div className='card'>
+            <img src={outdoorStand} alt="" />
+            <p>AC Outdoor Stand Wall Stand Split Ac</p>
+            <span></span>
+            <h4>Rs-3,000.00 </h4>
+            <small className='brand'>Blue Star Brand</small>
+            <button className='card'>Add to Card</button>
+        </div>
+        <div className='card'>
+            <img src={outdoorStand} alt="" />
+            <p>AC Outdoor Stand Wall Stand Split Ac</p>
+            <span></span>
+            <h4>Rs-3,000.00 </h4>
+            <small className='brand'>Blue Star Brand</small>
+            <button className='card'>Add to Card</button>
+        </div>
+        <div className='card'>
+            <img src={outdoorStand} alt="" />
+            <p>AC Outdoor Stand Wall Stand Split Ac</p>
+            <span></span>
+            <h4>Rs-3,000.00 </h4>
+            <small className='brand'>Blue Star Brand</small>
+            <button className='card'>Add to Card</button>
+        </div>
+        <div className='card'>
+            <img src={outdoorStand} alt="" />
+            <p>AC Outdoor Stand Wall Stand Split Ac</p>
+            <span></span>
+            <h4>Rs-3,000.00 </h4>
+            <small className='brand'>Blue Star Brand</small>
+            <button className='card'>Add to Card</button>
+        </div>
+        <div className='card'>
+            <img src={outdoorStand} alt="" />
+            <p>AC Outdoor Stand Wall Stand Split Ac</p>
+            <span></span>
+            <h4>Rs-3,000.00 </h4>
+            <small className='brand'>Blue Star Brand</small>
+            <button className='card'>Add to Card</button>
+        </div>
         <div className='card'>
             <img src={outdoorStand} alt="" />
             <p>AC Outdoor Stand Wall Stand Split Ac</p>
@@ -102,110 +203,6 @@ const MainPage = () => {
         </div>
      </div>
 
-     <div className='card-section2'>
-        <div className='card'>
-            <img src={outdoorStand} alt="" />
-            <p>AC Outdoor Stand Wall Stand Split Ac</p>
-            <span></span>
-            <h4>Rs-3,000.00 </h4>
-            <small className='brand'>Blue Star Brand</small>
-            <button className='card'>Add to Card</button>
-        </div>
-        <div className='card'>
-            <img src={outdoorStand} alt="" />
-            <p>AC Outdoor Stand Wall Stand Split Ac</p>
-            <span></span>
-            <h4>Rs-3,000.00 </h4>
-            <small className='brand'>Blue Star Brand</small>
-            <button className='card'>Add to Card</button>
-        </div>
-        <div className='card'>
-            <img src={outdoorStand} alt="" />
-            <p>AC Outdoor Stand Wall Stand Split Ac</p>
-            <span></span>
-            <h4>Rs-3,000.00 </h4>
-            <small className='brand'>Blue Star Brand</small>
-            <button className='card'>Add to Card</button>
-        </div>
-        <div className='card'>
-            <img src={outdoorStand} alt="" />
-            <p>AC Outdoor Stand Wall Stand Split Ac</p>
-            <span></span>
-            <h4>Rs-3,000.00 </h4>
-            <small className='brand'>Blue Star Brand</small>
-            <button className='card'>Add to Card</button>
-        </div>
-     </div>
-
-     <div className='card-section2'>
-        <div className='card'>
-            <img src={outdoorStand} alt="" />
-            <p>AC Outdoor Stand Wall Stand Split Ac</p>
-            <span></span>
-            <h4>Rs-3,000.00 </h4>
-            <small className='brand'>Blue Star Brand</small>
-            <button className='card'>Add to Card</button>
-        </div>
-        <div className='card'>
-            <img src={outdoorStand} alt="" />
-            <p>AC Outdoor Stand Wall Stand Split Ac</p>
-            <span></span>
-            <h4>Rs-3,000.00 </h4>
-            <small className='brand'>Blue Star Brand</small>
-            <button className='card'>Add to Card</button>
-        </div>
-        <div className='card'>
-            <img src={outdoorStand} alt="" />
-            <p>AC Outdoor Stand Wall Stand Split Ac</p>
-            <span></span>
-            <h4>Rs-3,000.00 </h4>
-            <small className='brand'>Blue Star Brand</small>
-            <button className='card'>Add to Card</button>
-        </div>
-        <div className='card'>
-            <img src={outdoorStand} alt="" />
-            <p>AC Outdoor Stand Wall Stand Split Ac</p>
-            <span></span>
-            <h4>Rs-3,000.00 </h4>
-            <small className='brand'>Blue Star Brand</small>
-            <button className='card'>Add to Card</button>
-        </div>
-     </div>
-
-     <div className='card-section2'>
-        <div className='card'>
-            <img src={outdoorStand} alt="" />
-            <p>AC Outdoor Stand Wall Stand Split Ac</p>
-            <span></span>
-            <h4>Rs-3,000.00 </h4>
-            <small className='brand'>Blue Star Brand</small>
-            <button className='card'>Add to Card</button>
-        </div>
-        <div className='card'>
-            <img src={outdoorStand} alt="" />
-            <p>AC Outdoor Stand Wall Stand Split Ac</p>
-            <span></span>
-            <h4>Rs-3,000.00 </h4>
-            <small className='brand'>Blue Star Brand</small>
-            <button className='card'>Add to Card</button>
-        </div>
-        <div className='card'>
-            <img src={outdoorStand} alt="" />
-            <p>AC Outdoor Stand Wall Stand Split Ac</p>
-            <span></span>
-            <h4>Rs-3,000.00 </h4>
-            <small className='brand'>Blue Star Brand</small>
-            <button className='card'>Add to Card</button>
-        </div>
-        <div className='card'>
-            <img src={outdoorStand} alt="" />
-            <p>AC Outdoor Stand Wall Stand Split Ac</p>
-            <span></span>
-            <h4>Rs-3,000.00 </h4>
-            <small className='brand'>Blue Star Brand</small>
-            <button className='card'>Add to Card</button>
-        </div>
-     </div>
     </>
   )
 }

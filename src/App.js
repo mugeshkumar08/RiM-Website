@@ -6,6 +6,11 @@ import StoreDetails from './Pages/StoreDetails';
 import LoginPage from './Pages/LoginPage';
 import FeedsView from './Pages/FeedsView';
 import ProfileInfo from './Pages/ProfileInfo';
+import OrderHistory from './Pages/OrderHistory';
+import Cart from './Pages/Cart';
+import PaymentSuccess from './Pages/PaymentSuccess';
+import SubmitPage from './Pages/SubmitPage';
+import SubmitRequirement from './Pages/SubmitRequirement';
 
 function App() {
   return (
@@ -18,6 +23,11 @@ function App() {
          <Route path='/Feed-views' element={<FeedsView/>} />
          <Route path="/Login-Page" element={<LoginPage/>} />
          <Route path='/Profile-info' element={<ProfileInfo/>} />
+         <Route path='/Order-history' element={<OrderHistory/>} />
+         <Route path='/Cart' element={<Cart/>} />
+         <Route path='/Payment-success' element={<PaymentSuccess/>} />
+         <Route path='/Submit-page' element={<SubmitPage/>} />
+         <Route path='/Submit-requirement' element={<SubmitRequirement/>} />
        </Routes>
      </BrowserRouter>
     </>

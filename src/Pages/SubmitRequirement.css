@@ -1,0 +1,26 @@
+.h4r{
+    width: 100%;
+    margin-left: -0px;
+}
+
+.addBtn{
+    width: 60px;
+    height: 50px;
+    background: #F5F5F5;   
+}
+
+.addBtn:hover{
+    background: #F5F5F5; 
+}
+
+.btnSubmit{
+    background: #ff5722;
+    color: white;
+    border-radius: 10px;
+    width: 200px;
+    height: 50px;
+}
+
+.btnSubmit:hover{
+    background: #ff5722; 
+}

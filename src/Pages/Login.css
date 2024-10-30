@@ -4,7 +4,8 @@
     height: 30%;
     margin-left: 20%;
     border: 1px solid #808080;
-    margin-top: 70px;
+    margin-top: 50px;
+    margin-bottom: 50px;
   }
   
   .login-form {
@@ -85,4 +86,53 @@
   .rim-logo {
     max-width: 60%;
   }
+
+
+  @media (max-width: 480px) {
+    /* Container */
+    .login-container {
+      flex-direction: column;
+      padding: 10px;
+    }
+  
+    /* Login Form */
+    .login-form {
+      width: 100%;
+      padding: 15px;
+    }
+  
+    .login-form h3 {
+      font-size: 1.5rem;
+      text-align: center;
+    }
+  
+    .form-group label {
+      font-size: 0.9rem;
+    }
+  
+    .form-group input {
+      padding: 8px;
+      font-size: 0.9rem;
+    }
+  
+    .forgot-password {
+      font-size: 0.8rem;
+    }
+  
+    .login-button {
+      padding: 8px;
+      font-size: 1rem;
+      margin-left: 14% !important;
+    }
+  
+    .otp-login {
+      font-size: 0.8rem;
+    }
+  
+    /* Banner Section */
+    .login-banner {
+      display: none;
+    }
+  }
+  
   
