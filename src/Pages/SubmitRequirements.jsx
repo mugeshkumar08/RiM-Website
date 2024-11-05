@@ -1,8 +1,7 @@
 import React from 'react'
-import '../Pages/SubmitRequirement.css'
+import '../Pages/SubmitRequirements.css'
 
-
-const SubmitRequirement = () => {
+const SubmitRequirements = () => {
   return (
     <div className="submitContainer mt-5">
     <h4 className=" sideHeading mb-4">Tell us what you need, and we'll help you get quotes</h4>
@@ -14,6 +13,18 @@ const SubmitRequirement = () => {
         </div>
       </div>
       <div className="row mb-3 align-items-center">
+        <label className="col-sm-3 col-form-labels">Mobile Number</label>
+        <div className="col-sm-9">
+          <input type="tel" className="form-controls" placeholder="Enter Your Mobile Number" />
+        </div>
+      </div>
+      <div className="row mb-3 align-items-center">
+        <label className="col-sm-3 col-form-label">Name</label>
+        <div className="col-sm-9">
+          <input type="text" className="form-controls" placeholder="Enter Your Name" />
+        </div>
+      </div>
+      <div className="row mb-3 align-items-center">
         <label className="col-sm-3 col-form-label">Quantity</label>
         <div className="col-sm-9">
           <div className="input-group">
@@ -22,31 +33,10 @@ const SubmitRequirement = () => {
           </div>
         </div>
       </div>
-      <div className="row mb-3 align-items-center">
-        <label className="col-sm-3 col-form-label">Distributors Name</label>
-        <div className="col-sm-9">
-          <input type="text" className="form-controls" placeholder="Enter Your Name" />
-        </div>
-      </div>
-      <div className="row mb-3 align-items-center">
-        <label className="col-sm-3 col-form-label">Distributors Location</label>
-        <div className="col-sm-9">
-          <div className="input-group">
-            <input type="text" className="form-cont"/>
-            <span className="input-group-text">Piece</span>
-          </div>
-        </div>
-      </div>
-      <div className="row mb-3 align-items-center">
-        <label className="col-sm-3 col-form-labels"> Distributors Phone Number</label>
-        <div className="col-sm-9">
-          <input type="tel" className="form-controls" placeholder="Enter Your Mobile Number" />
-        </div>
-      </div>
       <button type="submit" className="btn submitReq">Submit Requirement</button>
     </form>
   </div>
-    )
+  )
 }
 
-export default SubmitRequirement
+export default SubmitRequirements

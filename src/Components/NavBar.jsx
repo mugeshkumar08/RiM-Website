@@ -21,12 +21,15 @@ const NavBar = () => {
                 <Link to="/store-details">StoreDetails</Link>
                 <Link to="/Feed-views">FeedView</Link>
                 <Link to="/Login-Page">Login</Link>
+                <Link to="/Technician-Page">TechnicianPage</Link>
+                <Link to="/RegisterOtp">OTP</Link>
                 <Link to="/Profile-info">Profile Info</Link>
                 <Link to="/Order-history">Order History</Link>
                 <Link to="/Cart">Cart</Link>
                 <Link to="/Payment-success">Payment</Link>
                 <Link to="/Submit-page">Submit page</Link>
                 <Link to="/Submit-requirement">Submit requirement</Link>
+                <Link to="/Submit-requirements">Submit requirements</Link>
              </ul>
            </div>
           
